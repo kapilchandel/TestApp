@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA3D0A816787CFE00784E34 /* AddAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA3D0A616787CFE00784E34 /* AddAddressViewController.m */; };
+		2CA3D0A916787CFE00784E34 /* AddAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA3D0A716787CFE00784E34 /* AddAddressViewController.xib */; };
+		2CD016D9167857DD0005EA14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD016D8167857DD0005EA14 /* UIKit.framework */; };
+		2CD016DB167857DD0005EA14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD016DA167857DD0005EA14 /* Foundation.framework */; };
+		2CD016DD167857DD0005EA14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD016DC167857DD0005EA14 /* CoreGraphics.framework */; };
+		2CD016DF167857DD0005EA14 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD016DE167857DD0005EA14 /* CoreData.framework */; };
+		2CD016E5167857DD0005EA14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CD016E3167857DD0005EA14 /* InfoPlist.strings */; };
+		2CD016E7167857DD0005EA14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD016E6167857DD0005EA14 /* main.m */; };
+		2CD016EB167857DD0005EA14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD016EA167857DD0005EA14 /* AppDelegate.m */; };
+		2CD016EE167857DD0005EA14 /* CoreDataWithARC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2CD016EC167857DD0005EA14 /* CoreDataWithARC.xcdatamodeld */; };
+		2CD016F7167858350005EA14 /* CoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD016F5167858350005EA14 /* CoreDataViewController.m */; };
+		2CD016F8167858350005EA14 /* CoreDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD016F6167858350005EA14 /* CoreDataViewController.xib */; };
+		2CD016FC1678593D0005EA14 /* AddEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD016FA1678593D0005EA14 /* AddEmployeeViewController.m */; };
+		2CD016FD1678593D0005EA14 /* AddEmployeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD016FB1678593D0005EA14 /* AddEmployeeViewController.xib */; };
+		2CD01701167859660005EA14 /* FindEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD016FF167859660005EA14 /* FindEmployeeViewController.m */; };
+		2CD01702167859660005EA14 /* FindEmployeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD01700167859660005EA14 /* FindEmployeeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2CA3D0A516787CFE00784E34 /* AddAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAddressViewController.h; sourceTree = "<group>"; };
+		2CA3D0A616787CFE00784E34 /* AddAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAddressViewController.m; sourceTree = "<group>"; };
+		2CA3D0A716787CFE00784E34 /* AddAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddAddressViewController.xib; sourceTree = "<group>"; };
+		2CD016D4167857DD0005EA14 /* CoreDataWithARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataWithARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CD016D8167857DD0005EA14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2CD016DA167857DD0005EA14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2CD016DC167857DD0005EA14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2CD016DE167857DD0005EA14 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2CD016E2167857DD0005EA14 /* CoreDataWithARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataWithARC-Info.plist"; sourceTree = "<group>"; };
+		2CD016E4167857DD0005EA14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2CD016E6167857DD0005EA14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CD016E8167857DD0005EA14 /* CoreDataWithARC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataWithARC-Prefix.pch"; sourceTree = "<group>"; };
+		2CD016E9167857DD0005EA14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CD016EA167857DD0005EA14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CD016ED167857DD0005EA14 /* CoreDataWithARC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataWithARC.xcdatamodel; sourceTree = "<group>"; };
+		2CD016F4167858350005EA14 /* CoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataViewController.h; sourceTree = "<group>"; };
+		2CD016F5167858350005EA14 /* CoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataViewController.m; sourceTree = "<group>"; };
+		2CD016F6167858350005EA14 /* CoreDataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreDataViewController.xib; sourceTree = "<group>"; };
+		2CD016F91678593D0005EA14 /* AddEmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEmployeeViewController.h; sourceTree = "<group>"; };
+		2CD016FA1678593D0005EA14 /* AddEmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEmployeeViewController.m; sourceTree = "<group>"; };
+		2CD016FB1678593D0005EA14 /* AddEmployeeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEmployeeViewController.xib; sourceTree = "<group>"; };
+		2CD016FE167859660005EA14 /* FindEmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindEmployeeViewController.h; sourceTree = "<group>"; };
+		2CD016FF167859660005EA14 /* FindEmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindEmployeeViewController.m; sourceTree = "<group>"; };
+		2CD01700167859660005EA14 /* FindEmployeeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindEmployeeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CD016D1167857DD0005EA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD016D9167857DD0005EA14 /* UIKit.framework in Frameworks */,
+				2CD016DB167857DD0005EA14 /* Foundation.framework in Frameworks */,
+				2CD016DD167857DD0005EA14 /* CoreGraphics.framework in Frameworks */,
+				2CD016DF167857DD0005EA14 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CD016C9167857DD0005EA14 = {
+			isa = PBXGroup;
+			children = (
+				2CD016E0167857DD0005EA14 /* CoreDataWithARC */,
+				2CD016D7167857DD0005EA14 /* Frameworks */,
+				2CD016D5167857DD0005EA14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CD016D5167857DD0005EA14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CD016D4167857DD0005EA14 /* CoreDataWithARC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CD016D7167857DD0005EA14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD016D8167857DD0005EA14 /* UIKit.framework */,
+				2CD016DA167857DD0005EA14 /* Foundation.framework */,
+				2CD016DC167857DD0005EA14 /* CoreGraphics.framework */,
+				2CD016DE167857DD0005EA14 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CD016E0167857DD0005EA14 /* CoreDataWithARC */ = {
+			isa = PBXGroup;
+			children = (
+				2CD016E9167857DD0005EA14 /* AppDelegate.h */,
+				2CD016EA167857DD0005EA14 /* AppDelegate.m */,
+				2CD016F4167858350005EA14 /* CoreDataViewController.h */,
+				2CD016F5167858350005EA14 /* CoreDataViewController.m */,
+				2CD016F6167858350005EA14 /* CoreDataViewController.xib */,
+				2CD016F91678593D0005EA14 /* AddEmployeeViewController.h */,
+				2CD016FA1678593D0005EA14 /* AddEmployeeViewController.m */,
+				2CD016FB1678593D0005EA14 /* AddEmployeeViewController.xib */,
+				2CD016FE167859660005EA14 /* FindEmployeeViewController.h */,
+				2CD016FF167859660005EA14 /* FindEmployeeViewController.m */,
+				2CD01700167859660005EA14 /* FindEmployeeViewController.xib */,
+				2CA3D0A516787CFE00784E34 /* AddAddressViewController.h */,
+				2CA3D0A616787CFE00784E34 /* AddAddressViewController.m */,
+				2CA3D0A716787CFE00784E34 /* AddAddressViewController.xib */,
+				2CD016EC167857DD0005EA14 /* CoreDataWithARC.xcdatamodeld */,
+				2CD016E1167857DD0005EA14 /* Supporting Files */,
+			);
+			path = CoreDataWithARC;
+			sourceTree = "<group>";
+		};
+		2CD016E1167857DD0005EA14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CD016E2167857DD0005EA14 /* CoreDataWithARC-Info.plist */,
+				2CD016E3167857DD0005EA14 /* InfoPlist.strings */,
+				2CD016E6167857DD0005EA14 /* main.m */,
+				2CD016E8167857DD0005EA14 /* CoreDataWithARC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CD016D3167857DD0005EA14 /* CoreDataWithARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CD016F1167857DD0005EA14 /* Build configuration list for PBXNativeTarget "CoreDataWithARC" */;
+			buildPhases = (
+				2CD016D0167857DD0005EA14 /* Sources */,
+				2CD016D1167857DD0005EA14 /* Frameworks */,
+				2CD016D2167857DD0005EA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataWithARC;
+			productName = CoreDataWithARC;
+			productReference = 2CD016D4167857DD0005EA14 /* CoreDataWithARC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CD016CB167857DD0005EA14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2CD016CE167857DD0005EA14 /* Build configuration list for PBXProject "CoreDataWithARC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2CD016C9167857DD0005EA14;
+			productRefGroup = 2CD016D5167857DD0005EA14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CD016D3167857DD0005EA14 /* CoreDataWithARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CD016D2167857DD0005EA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD016E5167857DD0005EA14 /* InfoPlist.strings in Resources */,
+				2CD016F8167858350005EA14 /* CoreDataViewController.xib in Resources */,
+				2CD016FD1678593D0005EA14 /* AddEmployeeViewController.xib in Resources */,
+				2CD01702167859660005EA14 /* FindEmployeeViewController.xib in Resources */,
+				2CA3D0A916787CFE00784E34 /* AddAddressViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD016D0167857DD0005EA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD016E7167857DD0005EA14 /* main.m in Sources */,
+				2CD016EB167857DD0005EA14 /* AppDelegate.m in Sources */,
+				2CD016EE167857DD0005EA14 /* CoreDataWithARC.xcdatamodeld in Sources */,
+				2CD016F7167858350005EA14 /* CoreDataViewController.m in Sources */,
+				2CD016FC1678593D0005EA14 /* AddEmployeeViewController.m in Sources */,
+				2CD01701167859660005EA14 /* FindEmployeeViewController.m in Sources */,
+				2CA3D0A816787CFE00784E34 /* AddAddressViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CD016E3167857DD0005EA14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CD016E4167857DD0005EA14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CD016EF167857DD0005EA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CD016F0167857DD0005EA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CD016F2167857DD0005EA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataWithARC/CoreDataWithARC-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataWithARC/CoreDataWithARC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2CD016F3167857DD0005EA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataWithARC/CoreDataWithARC-Prefix.pch";
+				INFOPLIST_FILE = "CoreDataWithARC/CoreDataWithARC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CD016CE167857DD0005EA14 /* Build configuration list for PBXProject "CoreDataWithARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD016EF167857DD0005EA14 /* Debug */,
+				2CD016F0167857DD0005EA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CD016F1167857DD0005EA14 /* Build configuration list for PBXNativeTarget "CoreDataWithARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD016F2167857DD0005EA14 /* Debug */,
+				2CD016F3167857DD0005EA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2CD016EC167857DD0005EA14 /* CoreDataWithARC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2CD016ED167857DD0005EA14 /* CoreDataWithARC.xcdatamodel */,
+			);
+			currentVersion = 2CD016ED167857DD0005EA14 /* CoreDataWithARC.xcdatamodel */;
+			path = CoreDataWithARC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2CD016CB167857DD0005EA14 /* Project object */;
+}
