@@ -23,6 +23,8 @@
 		2CD016FD1678593D0005EA14 /* AddEmployeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD016FB1678593D0005EA14 /* AddEmployeeViewController.xib */; };
 		2CD01701167859660005EA14 /* FindEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD016FF167859660005EA14 /* FindEmployeeViewController.m */; };
 		2CD01702167859660005EA14 /* FindEmployeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD01700167859660005EA14 /* FindEmployeeViewController.xib */; };
+		2CF1C5971679A8B80036F46B /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF1C5951679A8B80036F46B /* TwitterViewController.m */; };
+		2CF1C5981679A8B80036F46B /* TwitterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CF1C5961679A8B80036F46B /* TwitterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,9 @@
 		2CD016FE167859660005EA14 /* FindEmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindEmployeeViewController.h; sourceTree = "<group>"; };
 		2CD016FF167859660005EA14 /* FindEmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindEmployeeViewController.m; sourceTree = "<group>"; };
 		2CD01700167859660005EA14 /* FindEmployeeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindEmployeeViewController.xib; sourceTree = "<group>"; };
+		2CF1C5941679A8B80036F46B /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		2CF1C5951679A8B80036F46B /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		2CF1C5961679A8B80036F46B /* TwitterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwitterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,9 @@
 				2CA3D0A516787CFE00784E34 /* AddAddressViewController.h */,
 				2CA3D0A616787CFE00784E34 /* AddAddressViewController.m */,
 				2CA3D0A716787CFE00784E34 /* AddAddressViewController.xib */,
+				2CF1C5941679A8B80036F46B /* TwitterViewController.h */,
+				2CF1C5951679A8B80036F46B /* TwitterViewController.m */,
+				2CF1C5961679A8B80036F46B /* TwitterViewController.xib */,
 				2CD016EC167857DD0005EA14 /* CoreDataWithARC.xcdatamodeld */,
 				2CD016E1167857DD0005EA14 /* Supporting Files */,
 			);
@@ -184,6 +192,7 @@
 				2CD016FD1678593D0005EA14 /* AddEmployeeViewController.xib in Resources */,
 				2CD01702167859660005EA14 /* FindEmployeeViewController.xib in Resources */,
 				2CA3D0A916787CFE00784E34 /* AddAddressViewController.xib in Resources */,
+				2CF1C5981679A8B80036F46B /* TwitterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +210,7 @@
 				2CD016FC1678593D0005EA14 /* AddEmployeeViewController.m in Sources */,
 				2CD01701167859660005EA14 /* FindEmployeeViewController.m in Sources */,
 				2CA3D0A816787CFE00784E34 /* AddAddressViewController.m in Sources */,
+				2CF1C5971679A8B80036F46B /* TwitterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

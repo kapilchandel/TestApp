@@ -13,5 +13,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *EmployeeName;
 @property (weak, nonatomic) IBOutlet UITextField *EmployeePhoneNo;
 @property (weak, nonatomic) IBOutlet UILabel *statusLabel;
+@property(nonatomic,strong) NSManagedObjectContext *managedObjectContext;
 -(void) showAlert :(NSString*)title Message:(NSString*)msg;
 @end

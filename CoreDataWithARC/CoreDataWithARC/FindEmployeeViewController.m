@@ -61,25 +61,13 @@
         [request setPredicate:pred];
         NSManagedObject *matches = nil;
         NSError *error;
-NSArray *objects = [context executeFetchRequest:request error:&error];
+        NSArray *objects = [context executeFetchRequest:request error:&error];
         
-        NSEntityDescription *entityDesc1 = [NSEntityDescription entityForName:@"Address" 
-                                                      inManagedObjectContext:context];
-       NSFetchRequest *request1 = [[NSFetchRequest alloc] init];
-        [request setEntity:entityDesc1];
-        NSPredicate *pred1 = [NSPredicate predicateWithFormat:@"(employeeId = %@)", 
-                             self.employeeId.text];
-        [request1 setPredicate:pred1];
-
-              
-        NSArray *objects1 = [context executeFetchRequest:request1 error:&error];
-        NSManagedObject *matches1 = nil;
         if ([objects count] == 0) {
             statusLabel.text = @"No matches";
         } else {
             matches = [objects objectAtIndex:0];
-            matches1=[objects1 objectAtIndex:0];
-            self.FoundResultLabel.text = [NSString stringWithFormat:@"The Employee Name = %@ ,Phone No = %@ and Address is = %@", [matches valueForKey:@"employeeName"], [matches valueForKey:@"employeePhone"],[matches1 valueForKey:@"employeeAddress"]];
+                       self.FoundResultLabel.text = [NSString stringWithFormat:@"The Employee Name = %@ ,Phone No = %@ ", [matches valueForKey:@"employeeName"], [matches valueForKey:@"employeePhone"]];
             self.statusLabel.text = [NSString stringWithFormat:
                                 @"%d matches found", [objects count]];
         }
