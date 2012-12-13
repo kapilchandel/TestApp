@@ -192,7 +192,7 @@
 				2CD016FD1678593D0005EA14 /* AddEmployeeViewController.xib in Resources */,
 				2CD01702167859660005EA14 /* FindEmployeeViewController.xib in Resources */,
 				2CA3D0A916787CFE00784E34 /* AddAddressViewController.xib in Resources */,
-				2CF1C5A51679AA820036F46B /* TwitterViewController.xib in Resources */,
+				2CF1C5981679A8B80036F46B /* TwitterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
